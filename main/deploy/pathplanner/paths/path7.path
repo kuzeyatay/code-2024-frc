@@ -1,0 +1,67 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.56760634776619,
+        "y": 5.949104965257007
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.6027388574035335,
+        "y": 5.937394128711226
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 6.232570981547098,
+        "y": 6.382405917450922
+      },
+      "prevControl": {
+        "x": 6.185727635363972,
+        "y": 6.394116753996704
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 1.0,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "distanceShoot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 3.8,
+    "maxAcceleration": 3.8,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 8.471144633014907,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": " Note Auto",
+  "previewStartingState": null,
+  "useDefaultConstraints": false
+}

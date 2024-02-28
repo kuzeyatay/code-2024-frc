@@ -1,0 +1,169 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.325730468864645,
+      "y": 5.574358195791997
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "shootAtStart"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path1"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.0
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootAtStart"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path2"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.0
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootAtStart"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootAtStart"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.0
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootAtStart"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path4"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path5"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootAtStart"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path6"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path7"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootAtStart"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path8"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "path9"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootAtStart"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
